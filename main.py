@@ -2,6 +2,7 @@ import data
 import helpers
 
 class TestUrbanRoutes:
+# Task 4
     @classmethod
     def setup_class(cls):
         helpers.is_url_reachable(data.URBAN_ROUTES_URL)
@@ -9,6 +10,7 @@ class TestUrbanRoutes:
             print('Connected to Urban Routes Server')
         else:
             print('Cannot connect to Urban Routes. Check the server is on and still running')
+# Task 3
     def test_set_route(self):
         # Add in S8
         print("test_set_route")
@@ -38,13 +40,13 @@ class TestUrbanRoutes:
         # Add in S8
         print("test_order_blanket_and_handkerchiefs")
         pass
-
+# Task 5
     def test_order_2_ice_creams(self):
         for i in range(2):
             # Add in S8
             print("Icecream x{i}")
             pass
-
+# End of Task 5
 
     def test_car_search_model_appears(self):
         # Add in S8
