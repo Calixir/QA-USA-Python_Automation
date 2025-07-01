@@ -1,7 +1,7 @@
 # File with constants
 # Task 2
 # Sprint 8 Project Data Retrieve
-URBAN_ROUTES_URL = 'https://cnt-bebd6579-f4dc-4bbd-b95e-a96838ff0388.containerhub.tripleten-services.com'
+URBAN_ROUTES_URL = 'https://cnt-54f4e60e-cae6-4c28-973d-2380787ea58a.containerhub.tripleten-services.com'
 
 ADDRESS_FROM = 'East 2nd Street, 601'
 ADDRESS_TO = '1300 1st St'
